@@ -180,11 +180,6 @@
     .hero-socials a:hover { color:var(--accent); }
 
     .hero-photo { position:relative; width:300px; height:360px; flex-shrink:0; perspective:1000px; }
-    /* rotating gradient glow border */
-    .hero-photo::before { content:''; position:absolute; inset:-3px; border-radius:23px; z-index:0;
-      background:conic-gradient(from 0deg, var(--accent), rgba(91,124,250,0) 30%, rgba(91,124,250,0) 70%, var(--accent-hi));
-      filter:blur(3px); opacity:.9; animation:photoSpin 5s linear infinite; }
-    @keyframes photoSpin { to{ transform:rotate(360deg) } }
     /* gentle float + reveal-in */
     .hero-photo .tilt { position:relative; z-index:1; width:100%; height:100%;
       animation:photoFloat 6s ease-in-out infinite, photoIn 1s cubic-bezier(.2,.7,.2,1) both; }
@@ -404,8 +399,8 @@
 
 <div class="ticker" aria-hidden="true">
   <div class="ticker-track">
-    <span>Linux<span></span></span><span>Networking<span></span></span><span>Web Security<span></span></span><span>Penetration Testing<span></span></span><span>Python<span></span></span><span>C / Java<span></span></span><span>PHP &amp; MySQL<span></span></span><span>AI Algorithms<span></span></span>
-    <span>Linux<span></span></span><span>Networking<span></span></span><span>Web Security<span></span></span><span>Penetration Testing<span></span></span><span>Python<span></span></span><span>C / Java<span></span></span><span>PHP &amp; MySQL<span></span></span><span>AI Algorithms<span></span></span>
+    <span>Linux<span></span></span><span>Networking<span></span></span><span>Web Security<span></span></span><span>Penetration Testing<span></span></span><span>Python<span></span></span><span>C / Java<span></span></span><span>PHP &amp; MySQL<span></span></span><span>AI Algorithms<span></span></span><span>Wazuh<span></span></span><span>SOC Ops<span></span></span>
+    <span>Linux<span></span></span><span>Networking<span></span></span><span>Web Security<span></span></span><span>Penetration Testing<span></span></span><span>Python<span></span></span><span>C / Java<span></span></span><span>PHP &amp; MySQL<span></span></span><span>AI Algorithms<span></span></span><span>Wazuh<span></span></span><span>SOC Ops<span></span></span>
   </div>
 </div>
 
@@ -417,16 +412,16 @@
       <div class="about-bio reveal">
         <p>I'm <strong>Md Rafiuddin Khan Rafi</strong> — a CSE undergraduate at Green University of Bangladesh, focused on <strong>cybersecurity, Linux, and networking</strong>. In the security world I go by <strong>mdrafi991ex</strong>.</p>
         <p>I practice hands-on security on TryHackMe and keep my fundamentals sharp, while building real things end to end: an AI-driven <strong>wildfire simulator</strong>, a full <strong>PHP/MySQL e-commerce app</strong>, and a parking system written in <strong>8086 Assembly</strong>.</p>
-        <p>Right now I'm going deeper into <strong>web security</strong> and practical pentesting — aiming squarely at a software / security engineering role.</p>
+        <p>Right now I'm interning as a <strong>Blue Team SOC analyst</strong> at Bengal Infosec Limited, going deeper into <strong>web security</strong> and practical pentesting — aiming squarely at a software / security engineering role.</p>
         <div class="focus-tags">
-          <span>Cybersecurity</span><span>Linux</span><span>Networking</span><span>Web Security</span><span>AI Algorithms</span>
+          <span>Cybersecurity</span><span>Blue Team / SOC</span><span>Linux</span><span>Networking</span><span>Web Security</span><span>AI Algorithms</span>
         </div>
       </div>
       <div class="stats">
         <div class="stat reveal d1"><div class="num"><span class="count" data-to="6">0</span></div><div class="lab">Languages</div></div>
         <div class="stat reveal d2"><div class="num"><span class="count" data-to="3">0</span><span class="plus">+</span></div><div class="lab">Projects shipped</div></div>
         <div class="stat reveal d3"><div class="num"><span class="count" data-to="2">0</span></div><div class="lab">Security certs</div></div>
-        <div class="stat reveal d4"><div class="num"><span class="count" data-to="9">0</span><span class="plus">+</span></div><div class="lab">Tools &amp; platforms</div></div>
+        <div class="stat reveal d4"><div class="num"><span class="count" data-to="16">0</span><span class="plus">+</span></div><div class="lab">Tools &amp; platforms</div></div>
       </div>
     </div>
   </div>
@@ -443,6 +438,7 @@
       <div class="skill reveal d4"><h3><span class="dot">~</span> OS &amp; Databases</h3><p>Ubuntu / Linux, Windows and MySQL schema design.</p></div>
       <div class="skill reveal d1"><h3><span class="dot">&gt;_</span> Tooling</h3><p>Git, GitHub, VS Code, NetBeans, Cisco Packet Tracer, LaTeX.</p></div>
       <div class="skill reveal d2"><h3><span class="dot">/</span> Build &amp; Make</h3><p>Pygame for simulations, plus Canva &amp; MS Office for delivery.</p></div>
+      <div class="skill reveal d3"><h3><span class="dot">🛡</span> SOC &amp; Security</h3><p>VMware, Termius, Wazuh, TheHive, Cortex, Linux Server &amp; Tracecat.</p></div>
     </div>
   </div>
 </section>
@@ -492,7 +488,11 @@
 <section id="credentials">
   <div class="wrap">
     <div class="reveal"><div class="eyebrow">Credentials</div><h2 class="sec-title">Training &amp; <em>milestones</em></h2></div>
-    <div class="cred-wrap" style="margin-top:2.5rem;">
+    <div class="reveal" style="margin-top:2.5rem; margin-bottom:2rem;">
+      <div class="cred-h">// Experience</div>
+      <div class="cred"><div class="em" aria-hidden="true">🔵</div><div><div class="ct">Blue Team Intern — Bengal Infosec Limited</div><div class="co">SOC Operations · Present</div></div></div>
+    </div>
+    <div class="cred-wrap">
       <div class="reveal">
         <div class="cred-h">// Certifications</div>
         <div class="cred"><div class="ix">01</div><div><div class="ct">Cyber Security Fundamentals &amp; Defensive Tactics — Level 1</div><div class="co">GUCC Cyber Security Society</div></div></div>
@@ -503,6 +503,7 @@
         <div class="cred"><div class="em" aria-hidden="true">🏆</div><div><div class="ct">Champion — Internal Club Solo Tournament</div><div class="co">DTFC Club · EFootball</div></div></div>
         <div class="cred"><div class="em" aria-hidden="true">🥈</div><div><div class="ct">3× Semi-Finalist — Inter EFootball Championship</div><div class="co">Green University of Bangladesh</div></div></div>
         <div class="cred"><div class="em" aria-hidden="true">🎮</div><div><div class="ct">Round of 16 — Discovery One Esports League</div><div class="co">National Tournament · Bangladesh</div></div></div>
+        <div class="cred"><div class="em" aria-hidden="true">⚽</div><div><div class="ct">Quarterfinal — NSU X CYBERNAUTS eFootball Championship</div><div class="co">North South University · Bangladesh</div></div></div>
       </div>
     </div>
   </div>
@@ -616,7 +617,7 @@
   // ---------- Rotating hero role ----------
   (function(){
     const el = document.getElementById('role');
-    const roles = ['Cybersecurity Enthusiast','CSE Undergraduate','Linux & Networking','Web & Systems Builder'];
+    const roles = ['Cybersecurity Enthusiast','Blue Team SOC Intern','CSE Undergraduate','Linux & Networking','Web & Systems Builder'];
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches){ el.textContent = roles[0]; el.style.borderRight='none'; return; }
     let i=0, j=0, del=false;
     (function type(){
