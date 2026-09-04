@@ -617,47 +617,6 @@
     .c-bl { bottom: -4px; left: -4px; border-right: 0; border-top: 0; border-radius: 0 0 0 8px; }
     .c-br { bottom: -4px; right: -4px; border-left: 0; border-top: 0; border-radius: 0 0 8px 0; }
 
-    /* ===================== INFINITE CYBER TICKER ===================== */
-    .ticker {
-      position: relative;
-      z-index: 2;
-      border-top: 1px solid var(--line);
-      border-bottom: 1px solid var(--line);
-      background: rgba(11, 14, 22, 0.6);
-      backdrop-filter: blur(12px);
-      overflow: hidden;
-      padding: 0.9rem 0;
-    }
-    .ticker-track {
-      display: flex;
-      gap: 2.5rem;
-      width: max-content;
-      animation: ticker-scroll 32s linear infinite;
-    }
-    .ticker-track:hover {
-      animation-play-state: paused;
-    }
-    .ticker-item {
-      font-family: var(--font-mono);
-      font-size: 0.8rem;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--ink-dim);
-      display: inline-flex;
-      align-items: center;
-      gap: 2.5rem;
-    }
-    .ticker-item::after {
-      content: '◆';
-      color: var(--cyan);
-      font-size: 0.65rem;
-      text-shadow: 0 0 8px var(--cyan);
-    }
-    @keyframes ticker-scroll {
-      from { transform: translateX(0); }
-      to { transform: translateX(-50%); }
-    }
-
     /* ===================== ABOUT SECTION (REVAMPED SOC ANCHOR) ===================== */
     #about {
       background: var(--bg2);
@@ -1830,39 +1789,6 @@
   </div>
 </section>
 
-<!-- INFINITE CYBER TICKER -->
-<div class="ticker" aria-hidden="true">
-  <div class="ticker-track">
-    <div class="ticker-item"><span>Wazuh SIEM</span></div>
-    <div class="ticker-item"><span>Covert Channel Detection</span></div>
-    <div class="ticker-item"><span>Incident Response</span></div>
-    <div class="ticker-item"><span>Log Analysis</span></div>
-    <div class="ticker-item"><span>TheHive &amp; Cortex</span></div>
-    <div class="ticker-item"><span>Threat Intelligence</span></div>
-    <div class="ticker-item"><span>Tracecat Automation</span></div>
-    <div class="ticker-item"><span>Linux Server Ops</span></div>
-    <div class="ticker-item"><span>Generative AI Testing</span></div>
-    <div class="ticker-item"><span>Python &amp; ML</span></div>
-    <div class="ticker-item"><span>Next.js &amp; NestJS</span></div>
-    <div class="ticker-item"><span>8086 Assembly</span></div>
-    <div class="ticker-item"><span>VMware &amp; Packet Tracer</span></div>
-    <!-- Duplicated track for continuous scroll -->
-    <div class="ticker-item"><span>Wazuh SIEM</span></div>
-    <div class="ticker-item"><span>Covert Channel Detection</span></div>
-    <div class="ticker-item"><span>Incident Response</span></div>
-    <div class="ticker-item"><span>Log Analysis</span></div>
-    <div class="ticker-item"><span>TheHive &amp; Cortex</span></div>
-    <div class="ticker-item"><span>Threat Intelligence</span></div>
-    <div class="ticker-item"><span>Tracecat Automation</span></div>
-    <div class="ticker-item"><span>Linux Server Ops</span></div>
-    <div class="ticker-item"><span>Generative AI Testing</span></div>
-    <div class="ticker-item"><span>Python &amp; ML</span></div>
-    <div class="ticker-item"><span>Next.js &amp; NestJS</span></div>
-    <div class="ticker-item"><span>8086 Assembly</span></div>
-    <div class="ticker-item"><span>VMware &amp; Packet Tracer</span></div>
-  </div>
-</div>
-
 <!-- ABOUT SECTION (REVAMPED WITH SOC ANALYST AS THE CORE ANCHOR) -->
 <section id="about">
   <div class="wrap">
@@ -1872,18 +1798,15 @@
     </div>
     <div class="about-layout">
       <div class="about-bio reveal">
-        <p>I am <strong>Md Rafiuddin Khan Rafi</strong> — a Computer Science &amp; Engineering undergraduate at Green University of Bangladesh and a dedicated <strong>SOC Analyst &amp; Defensive Cybersecurity Specialist</strong> (known in the security ecosystem as <strong>mdrafi991ex</strong>). My core practice is anchored in <strong>SIEM alert monitoring, threat detection, incident triage, log analysis, and network packet visibility</strong>.</p>
-        <p>What elevates my defensive capabilities is my <strong>engineering-first approach</strong>: I do not treat systems as black boxes. From engineering covert channel detection in physical line codes (<strong>Secret Signal Detector</strong>) and developing tamper-evident skill ledgers (<strong>Campusfillo</strong>), to coding AI-driven spatial simulations (<strong>Wildfire Spread Simulator</strong>) and programming bare-metal registers in <strong>8086 Assembly</strong>, my full-stack software and low-level background grants me an adversary-aware perspective on how vulnerabilities originate and how sophisticated attacks traverse infrastructure.</p>
-        <p>Whether fine-tuning <strong>Wazuh SIEM rules</strong>, managing automated incident response cases in <strong>TheHive &amp; Cortex</strong>, conducting AI-assisted verification (certified in <strong>Software Testing with Generative AI</strong>), or coordinating team action during high-tempo operations (certified in <strong>Leadership &amp; Crisis Management</strong>), I bridge raw defensive operations with robust software engineering to build resilient, uncompromised architectures.</p>
+        <p>Hey, I'm <strong>Md Rafiuddin Khan Rafi</strong> — a CSE student at Green University of Bangladesh and an engineering-focused <strong>SOC Analyst</strong> (operating under <strong>mdrafi991ex</strong>). My day-to-day focus centers on defensive cybersecurity, SIEM log monitoring, threat triage, and incident response with tools like Wazuh.</p>
+        <p>What gives me an edge is that I build software as well as defend it. Having engineered systems like <em>Secret Signal Detector</em> (ML-based covert channel analysis) and <em>Campusfillo</em> (full-stack student merit platform), I understand how threats traverse systems from source code to network packets. Whether tuning detection rules or investigating anomalies, I bridge hands-on SOC triage with real-world engineering.</p>
         <div class="about-tags">
           <span class="about-tag">SOC Analyst</span>
           <span class="about-tag">SIEM &amp; Wazuh</span>
           <span class="about-tag">Incident Triage</span>
           <span class="about-tag">Covert Signal Detection</span>
           <span class="about-tag">Full-Stack &amp; Next.js</span>
-          <span class="about-tag">AI &amp; Algorithms</span>
-          <span class="about-tag">GenAI Testing</span>
-          <span class="about-tag">Linux &amp; Networks</span>
+          <span class="about-tag">AI Testing</span>
           <span class="about-tag">Crisis Management</span>
         </div>
       </div>
