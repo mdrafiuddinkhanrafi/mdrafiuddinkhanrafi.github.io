@@ -1,0 +1,138 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Length 1650 >>
+stream
+BT
+/F1 20 Tf
+50 800 Td
+(Md Rafiuddin Khan Rafi) Tj
+ET
+BT
+/F1 11 Tf
+50 782 Td
+(Cybersecurity & CSE Undergraduate | SOC Analyst & Defensive Security) Tj
+ET
+BT
+/F2 9 Tf
+50 765 Td
+(Email: mdrafikhanu@gmail.com | Phone: +880 1781 624376 | Location: Narayanganj, Bangladesh) Tj
+ET
+BT
+/F2 9 Tf
+50 752 Td
+(GitHub: github.com/mdrafiuddinkhanrafi | LinkedIn: linkedin.com/in/mdrafiuddinkhanrafi | TryHackMe: mdrafi991ex) Tj
+ET
+BT
+/F1 12 Tf
+50 724 Td
+(EDUCATION) Tj
+ET
+BT
+/F1 10 Tf
+50 706 Td
+(B.Sc. in Computer Science & Engineering - Green University of Bangladesh) Tj
+ET
+BT
+/F1 12 Tf
+50 678 Td
+(CORE EXPERTISE & DEFENSIVE SECURITY) Tj
+ET
+BT
+/F2 9 Tf
+50 660 Td
+(- SOC Operations: SIEM Alert Monitoring, Incident Triage, Log Analysis, Threat Intel Correlation, Detection Tuning.) Tj
+50 647 Td
+(- Tool Stack: Wazuh SIEM, TheHive 5, Cortex, Tracecat, VMware Workstation, Cisco Packet Tracer, Linux Servers.) Tj
+ET
+BT
+/F1 12 Tf
+50 620 Td
+(FEATURED PROJECTS) Tj
+ET
+BT
+/F1 10 Tf
+50 602 Td
+(1. Signal Sentinel - Secret Signal Detector [Python, Flask, Three.js, Random Forest ML]) Tj
+ET
+BT
+/F2 9 Tf
+50 589 Td
+(Covert channel detection in line-coded digital signals with Shannon entropy, jitter analysis, and 99%+ ML accuracy.) Tj
+ET
+BT
+/F1 10 Tf
+50 571 Td
+(2. Campusfillo [Next.js App Router, TypeScript, NestJS, Prisma, PostgreSQL, Docker]) Tj
+ET
+BT
+/F2 9 Tf
+50 558 Td
+(University-verified student merit ledger, automated repo code grading, isolated Code Arena, and tournament Elo.) Tj
+ET
+BT
+/F1 10 Tf
+50 540 Td
+(3. Wildfire Spread Simulator [Python, Pygame, BFS/DFS, A* Pathfinding]) Tj
+ET
+BT
+/F2 9 Tf
+50 527 Td
+(Real-time fire spread simulator with wind/elevation awareness and autonomous firefighter agents.) Tj
+ET
+BT
+/F1 10 Tf
+50 509 Td
+(4. Parking Management System [8086 Assembly Language, emu8086]) Tj
+ET
+BT
+/F2 9 Tf
+50 496 Td
+(Low-level vehicle slot allocation, fee calculation, income auditing, and hardware memory resets.) Tj
+ET
+BT
+/F1 12 Tf
+50 468 Td
+(CERTIFICATIONS & HONORS) Tj
+ET
+BT
+/F2 9 Tf
+50 450 Td
+(- Software Testing with Generative AI (Simplilearn SkillUp, Code: 10685004, Sept 2026)) Tj
+50 437 Td
+(- Leadership Training Program 2026 (Office of Student Affairs, Green University of Bangladesh, July 2026)) Tj
+50 424 Td
+(- Cyber Security Fundamentals & Defensive Tactics - Level 1 & Level 2 (GUCC Cyber Security Society)) Tj
+50 411 Td
+(- Champion & 3x Semi-Finalist: Inter Club & University EFootball Championships) Tj
+ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000244 00000 n 
+0000000320 00000 n 
+0000000391 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2120
+%%EOF
